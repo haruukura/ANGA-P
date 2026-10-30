@@ -4,33 +4,33 @@ A Python project managed with uv.
 
 ## Setup
 
-Install dependencies:
+### Install dependencies:
 uv sync
 
-Run the application:
+### Run the application:
 uv run antigravity-project
 
 ## Commands
 
-Run the app:
+### Run the app:
 uv run antigravity-project
 
-Run module directly:
+### Run module directly:
 uv run python -m antigravity_project.main
 
-Add a dependency:
+### Add a dependency:
 uv add <package>
 
-Add a dev dependency:
+### Add a dev dependency:
 uv add --dev <package>
 
-Remove a dependency:
+### Remove a dependency:
 uv remove <package>
 
-Sync environment:
+### Sync environment:
 uv sync
 
-Activate virtual environment:
+### Activate virtual environment:
 source .venv/bin/activate
 
 ## Note
